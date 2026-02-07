@@ -133,7 +133,7 @@ section {
     .bxs-down-arrow-circle {
         font-size: 70px;
         color: rgba(0, 0, 0, 0.329);
-        margin: 0px;
+        margin: 88px 0px 40px 0px;
     }
 }
 
@@ -469,7 +469,6 @@ section {
         }
     }
 }
-
 
 .sec5 {
     display: flex;
