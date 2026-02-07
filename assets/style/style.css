@@ -213,7 +213,7 @@ section {
 
     .direita {
         display: grid;
-        grid-template-columns: repeat(2, minmax(280px, 490px));
+        grid-template-columns: repeat(2, minmax(280px, 600px));
         justify-items: end;
         gap: 50px;
         margin: 50px 0px 30px auto;
@@ -277,7 +277,7 @@ section {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 50px;
-        margin: 100px 0px 30px auto;
+        margin: 50px auto 30px auto;
 
 
         .trabalhos {
@@ -364,7 +364,6 @@ section {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        min-height: 70vh;
 
         .esquerda {
             width: 100%;
@@ -375,7 +374,7 @@ section {
             }
 
             .botoes {
-                padding-top: 50px;
+                margin: 50px 0px 25px;
                 display: flex;
                 gap: 15px;
                 white-space: nowrap;
@@ -501,7 +500,7 @@ section {
                 width: 40%;
 
                 h4 {
-                    font-size: 1rem;
+                    font-size: 1.2rem;
                     line-height: 1.6;
                     padding: 10px 50px;
                     font-weight: 500;
@@ -540,13 +539,16 @@ section {
             display: flex;
             flex-direction: column;
             justify-content: center;
+            align-items: center;
 
             .text{
+                align-items: center;
+                width: 70%;
                 padding: 50px;
                 border-bottom: #dedede66 solid 1px;
 
                 h2 {
-                    font-size: 3rem;
+                    font-size: 2.5rem;
                     text-align: center;
                     letter-spacing: 2px;
                 }
@@ -561,6 +563,7 @@ section {
 
 
             p {
+                font-size: 0.8rem;
                 text-align: center;
             }
         }

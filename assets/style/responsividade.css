@@ -1,0 +1,983 @@
+@media screen and (max-width:1780px) {
+    .sec4 {
+        .content {
+            .esquerda {
+                h2 {
+                    font-size: 5rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1500px) {
+    .sec4 {
+        .content {
+            .esquerda {
+                h2 {
+                    font-size: 4rem;
+                }
+            }
+        }
+    }
+
+    .sec6 {
+        .divGradient6 {
+            .contentFooter {
+                .text {
+
+                    h2 {
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .sec1 {
+        .divGradient {
+            .heltonRibeiro {
+                h1 {
+                    font-size: 1rem;
+
+                    i {
+                        font-size: 1.2rem;
+                    }
+                }
+
+            }
+
+            h2 {
+                font-size: 5rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+
+    }
+
+    .sec2 {
+        .divGradient {
+            .esquerda {
+                h2 {
+                    font-size: 5rem;
+                }
+
+                p {
+                    font-size: 1rem;
+                }
+
+                a {
+                    font-size: 1rem;
+
+                    i {
+                        font-size: 15px;
+                    }
+                }
+            }
+
+            .direita {
+                .card {
+                    h3 {
+                        font-size: 15px;
+                    }
+
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    .sec3 {
+        .divGradient3 {
+            .cardTrabalho {
+                .trabalhos {
+                    h4 {
+                        font-size: 14px;
+                    }
+
+                    p {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+
+    .sec4 {
+        .content {
+            .esquerda {
+                h2 {
+                    font-size: 3.5rem;
+                }
+            }
+        }
+    }
+
+    .sec5 {
+        .divGradient5 {
+            .titleSec {
+                h3 {
+                    font-size: 5rem;
+                }
+            }
+
+            .content {
+                .esquerda {
+                    h4 {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    .sec6 {
+        .divGradient6 {
+            .contentFooter {
+                .text {
+                    h2 {
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .sec3 {
+        .divGradient3 {
+            padding: 0 3rem;
+
+            .cardTrabalho {
+                .trabalhos {
+                    h4 {
+                        font-size: 14px;
+                    }
+
+                    p {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+
+    .sec4 {
+        .content {
+            .direita {
+                .forms {
+                    h4 {
+                        font-size: 10px;
+                    }
+
+                    .heroForm {
+                        label {
+                            font-size: 12px;
+                        }
+
+                        input,
+                        textarea {
+                            font-size: 10px;
+                        }
+
+                        .btn {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .sec5 {
+        .divGradient5 {
+            padding: 90px 0px;
+        }
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .sec1 {
+        .divGradient {
+            .heltonRibeiro {
+                h1 {
+                    font-size: 1rem;
+
+                    i {
+                        font-size: 1.2rem;
+                    }
+                }
+
+            }
+
+            h2 {
+                font-size: 4rem;
+            }
+
+            p {
+                font-size: 0.9rem;
+            }
+        }
+
+    }
+
+    .sec2 {
+        .divGradient {
+            flex-direction: column;
+
+            .esquerda {
+                align-items: center;
+
+                h2 {
+                    font-size: 4rem;
+                }
+
+                p {
+                    margin: 15px 0px;
+                    align-items: center;
+                    font-size: 1rem;
+                    text-align: center;
+                }
+
+                a {
+                    font-size: 1rem;
+
+                    i {
+                        font-size: 15px;
+                    }
+                }
+            }
+
+            .direita {
+                grid-template-columns: repeat(2, 1fr);
+
+                .card {
+                    h3 {
+                        font-size: 15px;
+                    }
+
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    .sec3 {
+        .divGradient3 {
+
+            h2 {
+                font-size: 4rem;
+            }
+
+            .cardTrabalho {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+
+                grid-template-columns: repeat(1, 1fr);
+                max-width: 800px;
+
+                .trabalhos {
+
+                    h4 {
+                        font-size: 1.1rem;
+                    }
+
+                    p {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .sec4 {
+        .content {
+            .esquerda {
+                h2 {
+                    font-size: 3rem;
+                }
+            }
+        }
+    }
+
+    .sec5 {
+        .divGradient5 {
+            .titleSec {
+                h3 {
+                    font-size: 4rem;
+                }
+            }
+
+            .content {
+                .esquerda {
+                    h4 {
+                        font-size: 13px;
+                    }
+                }
+
+                .direita {
+                    img {
+                        width: 200px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .sec4 {
+
+        .divGradient {
+            padding: 50px 2rem;
+        }
+
+        .bxs-left-down-arrow-circle {
+            display: none;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+
+            .esquerda {
+                h2 {
+                    font-size: 3.5rem;
+                    text-align: center;
+                }
+
+                .botoes {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+
+            .direita {
+                width: 60%;
+
+                .forms {
+                    h4 {
+                        font-size: 13px;
+                    }
+
+                    .heroForm {
+                        label {
+                            font-size: 12px;
+                        }
+
+                        input,
+                        textarea {
+                            font-size: 15px;
+                        }
+
+                        .btn {
+                            font-size: 15px;
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .sec5 {
+            .divGradient5 {
+                .titleSec {
+                    h3 {
+                        font-size: 5rem;
+                    }
+                }
+
+                .content {
+                    .esquerda {
+                        h4 {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .sec6 {
+            .divGradient6 {
+                .contentFooter {
+                    .text {
+                        h2 {
+                            font-size: 1.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:900px) {
+    .sec1 {
+        .divGradient {
+            .heltonRibeiro {
+                h1 {
+                    font-size: 1rem;
+
+                    i {
+                        font-size: 0.9rem;
+                    }
+                }
+
+            }
+
+            h2 {
+                font-size: 3rem;
+            }
+
+            p {
+                font-size: 12px;
+            }
+        }
+
+    }
+
+    .sec5 {
+        .divGradient5 {
+            .titleSec {
+                h3 {
+                    font-size: 4rem;
+                }
+            }
+
+            .content {
+                .esquerda {
+                    width: 60%;
+
+                    h4 {
+                        padding: 10px;
+                        font-size: 13px;
+                    }
+                }
+
+                .direita {
+                    padding: 0;
+
+                    img {
+                        padding: 0;
+                        width: 200px;
+                    }
+                }
+            }
+        }
+    }
+
+    .sec6 {
+        .divGradient6 {
+            .contentFooter {
+                .text {
+                    width: 90%;
+                    padding: 0px 0px 50px;
+
+                    h2 {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:750px) {
+    .divLogos {
+        padding: 10px 5vh;
+    }
+
+    .sec1 {
+        .divGradient {
+            .heltonRibeiro {
+                h1 {
+                    font-size: 1rem;
+                }
+
+            }
+
+            h2 {
+                font-size: 2.5rem;
+            }
+
+            .tech {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                p {
+                    width: 30%;
+                    font-size: 12px;
+                }
+            }
+
+
+        }
+
+    }
+
+    .sec3 {
+        .divGradient3 {
+            padding: 0 2rem;
+        }
+    }
+
+    .sec4 {
+        .content {
+            display: flex;
+            flex-direction: column;
+
+            .direita {
+                width: 100%;
+            }
+        }
+    }
+
+    .sec6 {
+        .divGradient6 {
+            .contentFooter {
+                .text {
+                    h2 {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:650px) {
+    .sec1 {
+        .divGradient {
+            header {
+                padding: 2rem 1rem;
+            }
+
+            .heltonRibeiro {
+                h1 {
+                    font-size: 1rem;
+                }
+
+            }
+
+            h2 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 10px;
+            }
+        }
+    }
+
+    .sec2 {
+        .divGradient {
+            flex-direction: column;
+
+            .esquerda {
+                align-items: center;
+
+                h2 {
+                    font-size: 3rem;
+                }
+
+                p {
+                    margin: 15px 0px;
+                    align-items: center;
+                    font-size: 1rem;
+                    text-align: center;
+                }
+
+                a {
+                    font-size: 1rem;
+
+                    i {
+                        font-size: 15px;
+                    }
+                }
+            }
+
+            .direita {
+                grid-template-columns: repeat(1, 1fr);
+
+                .card {
+                    h3 {
+                        font-size: 15px;
+                    }
+
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    .sec3 {
+        .divGradient3 {
+
+            h2 {
+                font-size: 3rem;
+            }
+
+            .cardTrabalho {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+
+                gap: 5px;
+                margin: auto;
+
+                grid-template-columns: repeat(1, 1fr);
+                max-width: 800px;
+
+                .trabalhos {
+                    h4 {
+                        font-size: 1.1rem;
+                    }
+
+                    p {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .sec4 {
+        .content {
+            display: flex;
+            flex-direction: column;
+
+            .esquerda {
+                h2 {
+                    font-size: 2rem;
+                }
+            }
+
+            .direita {
+                width: 95%;
+            }
+        }
+    }
+
+    .sec5 {
+        .divGradient5 {
+            .titleSec {
+                h3 {
+                    font-size: 3rem;
+                }
+            }
+
+            .content {
+                .esquerda {
+                    width: 60%;
+
+                    h4 {
+                        padding: 10px;
+                        font-size: 8px;
+                    }
+                }
+
+                .direita {
+                    padding: 0;
+
+                    img {
+                        padding: 0;
+                        width: 150px;
+                    }
+                }
+            }
+        }
+    }
+
+    .sec6 {
+        .divGradient6 {
+            .contentFooter {
+                .text {
+                    width: 100%;
+
+                    h2 {
+                        font-size: 0.8rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:500px) {
+    .sec1 {
+        .divGradient {
+            header {
+                padding: 2rem 1rem;
+
+                h1 {
+                    font-size: 1.2rem;
+                }
+
+                .redes {
+                    img {
+                        width: 25px;
+                    }
+                }
+            }
+
+            .heltonRibeiro {
+                h1 {
+                    font-size: 1rem;
+                }
+
+            }
+
+            h2 {
+                font-size: 1.8rem;
+            }
+
+            .tech {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                p {
+                    width: 35%;
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+
+    .divLogos {
+        img {
+            width: 35px;
+        }
+    }
+
+    .sec2 {
+        .divGradient {
+            .esquerda {
+                p {
+                    font-size: 0.8rem;
+
+                }
+            }
+        }
+    }
+
+    .sec4 {
+        .divGradient4 {
+            padding: 90px 1rem;
+
+            .content {
+                display: flex;
+                flex-direction: column;
+
+                .esquerda {
+                    .botoes {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        a {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+    .sec6 {
+        .divGradient6 {
+
+            .contentFooter {
+                .text {
+                    width: 100%;
+
+                    h2 {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+
+    .back-to-top {
+        width: 30px;
+        height: 30px;
+
+        i {
+            font-size: 20px;
+        }
+    }
+}
+
+@media screen and (max-width:450px) {
+    .sec1 {
+        .divGradient {
+            header {
+                padding: 2rem 1rem;
+
+                h1 {
+                    font-size: 1.2rem;
+                }
+
+                .redes {
+                    img {
+                        width: 25px;
+                    }
+                }
+            }
+
+            .heltonRibeiro {
+                h1 {
+                    font-size: 1rem;
+                }
+
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            .tech {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                p {
+                    width: 40%;
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+
+    .divLogos {
+        img {
+            width: 35px;
+        }
+    }
+
+    .sec2 {
+        .divGradient {
+            padding: 90px 2rem;
+
+            .esquerda {
+                p {
+                    font-size: 0.8rem;
+
+                }
+            }
+        }
+    }
+
+    .sec3 {
+        .divGradient3 {
+            padding: 0 1rem;
+        }
+    }
+
+    .sec4 {
+        .divGradient4 {
+            .content {
+                display: flex;
+                flex-direction: column;
+
+                .esquerda {
+                    .botoes {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        a {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+
+        }
+
+
+    }
+
+    .sec6 {
+        .divGradient6 {
+            .contentFooter {
+                .text {
+                    width: 100%;
+
+                    h2 {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+
+    .back-to-top {
+        width: 30px;
+        height: 30px;
+        bottom: 60px;
+
+        i {
+            font-size: 20px;
+        }
+    }
+}
+
+@media screen and (max-width:400px) {
+    .sec1 {
+        .divGradient {
+
+            h2 {
+                font-size: 1rem;
+            }
+
+            .tech {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                p {
+                    text-align: center;
+                    width: 85%;
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+
+    .sec6 {
+        .divGradient6 {
+            .contentFooter {
+                .text {
+                    width: 100%;
+
+                    h2 {
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
