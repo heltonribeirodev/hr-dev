@@ -530,14 +530,66 @@ section {
         width: 100%;
         border-radius: 40px;
         background: linear-gradient(184deg, rgba(43, 43, 196, 1) 7%, rgba(2, 3, 21, 1) 75%);
-        padding: 100px 4rem;
+        padding: 80px 4rem;
         position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .contentFooter {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .redes {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-direction: row;
+                border-bottom: #dedede5c 1px solid;
+                padding: 50px 50px 0px 50px;
+
+
+                h2 {
+                    font-size: 2rem;
+                    font-weight: 800;
+                }
+
+                .img {
+                    margin-top: 5px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    gap:10px;
+
+                    img{
+                        
+                        align-items: center;
+                        width: 45px;
+                        transition: .5s;
+
+                        &:hover {
+                            transform: translateY(-5px);
+                        }
+                    }
+                    
+                }
+            }
+
+            .text{
+                padding: 50px;
+                h2 {
+                    font-size: 3.5rem;
+                }
+            }
+        }
+
 
         .footer {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            
+            position: absolute;
+
+            bottom: 1rem;
+
 
             p {
                 text-align: center;
