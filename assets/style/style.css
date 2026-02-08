@@ -86,12 +86,12 @@ section {
         margin-bottom: 80px;
 
         h1 {
-            font-size: 1.2rem;
-            font-weight: 500;
+            font-size: 1rem;
+            font-weight: 600;
         }
 
         i {
-            font-size: 1.5rem;
+            font-size: 1.2rem;
 
         }
     }
@@ -146,13 +146,11 @@ section {
 
     img {
         width: 60px;
-        filter: saturate(0);
         transition: .5s;
     }
 
     img:hover {
         transform: scale(1.1);
-        filter: saturate(1);
     }
 }
 
@@ -254,7 +252,6 @@ section {
 }
 
 .sec3 {
-    margin-top: 80px;
     flex-direction: row;
 
     .divGradient3 {
@@ -262,6 +259,10 @@ section {
         border-radius: 40px;
         background: linear-gradient(3deg, rgba(43, 43, 196, 1) 7%, rgba(2, 3, 21, 1) 75%);
         padding: 0 4.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
 
 
@@ -277,7 +278,7 @@ section {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 50px;
-        margin: 50px auto 30px auto;
+        margin: 50px auto 0px auto;
 
 
         .trabalhos {
@@ -285,8 +286,50 @@ section {
             backdrop-filter: blur(12px);
             border-radius: 24px;
             padding: 25px 20px;
-            margin: 0px 0px 100px 0px;
             transition: 0.7s;
+            margin-bottom: 10px;
+
+            h4 {
+                font-size: 1.2rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 15px 30px;
+                padding-bottom: 15px;
+                border-bottom: #F1F1F163 solid 1px;
+            }
+
+            img {
+                width: 100%;
+            }
+
+            p {
+                padding: 15px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            }
+
+            .linguagensUsadas {
+                width: fit-content;
+                margin: 10px auto 0px auto;
+                gap: 25px;
+
+                padding: 10px 20px;
+
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                background-color: rgba(8, 8, 8, 0.205);
+                border-radius: 15px;
+
+                img {
+                    width: 25px;
+                    border: none;
+                }
+            }
         }
 
         .trabalhos:hover {
@@ -294,45 +337,14 @@ section {
         }
     }
 
-    h4 {
-        font-size: 1.2rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 15px 30px;
-        padding-bottom: 15px;
-        border-bottom: #F1F1F163 solid 1px;
-    }
+    .text {
+        padding: 30px;
+        width: 70%;
 
-    img {
-        width: 100%;
-    }
-
-    p {
-        padding: 15px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .linguagensUsadas {
-        width: fit-content;
-        margin: 10px auto 0px auto;
-        gap: 25px;
-
-        padding: 10px 20px;
-
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
-        background-color: rgba(8, 8, 8, 0.205);
-        border-radius: 15px;
-
-        img {
-            width: 25px;
-            border: none;
+        h2 {
+            font-size: 2rem;
+            text-align: center;
+            letter-spacing: 2px;
         }
     }
 
@@ -524,49 +536,12 @@ section {
     }
 }
 
-.sec6 {
-    .divGradient6 {
-        width: 100%;
-        border-radius: 40px;
-        background: linear-gradient(184deg, rgba(43, 43, 196, 1) 7%, rgba(2, 3, 21, 1) 75%);
-        padding: 80px 4rem;
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+footer {
+    padding-bottom: 10px;
 
-        .contentFooter {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-
-            .text{
-                align-items: center;
-                width: 70%;
-                padding: 50px;
-                border-bottom: #dedede66 solid 1px;
-
-                h2 {
-                    font-size: 2.5rem;
-                    text-align: center;
-                    letter-spacing: 2px;
-                }
-            }
-        }
-
-
-        .footer {
-            position: absolute;
-
-            bottom: 1rem;
-
-
-            p {
-                font-size: 0.8rem;
-                text-align: center;
-            }
-        }
+    p {
+        font-size: 0.8rem;
+        text-align: center;
     }
 }
 
@@ -581,7 +556,7 @@ section {
     right: 50px;
     cursor: pointer;
     display: none;
-    
+
     justify-content: center;
     align-items: center;
 
@@ -591,6 +566,6 @@ section {
     }
 }
 
-.back-to-top-visible{
+.back-to-top-visible {
     display: flex;
 }

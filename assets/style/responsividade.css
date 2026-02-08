@@ -517,9 +517,12 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                flex-direction: column;
+                text-align: center;
 
                 p {
-                    width: 30%;
+                    text-align: center;
+                    width: 85%;
                     font-size: 12px;
                 }
             }
@@ -578,6 +581,7 @@
             }
 
             p {
+                width: 95%;
                 font-size: 10px;
             }
         }
@@ -754,7 +758,6 @@
                 justify-content: center;
 
                 p {
-                    width: 35%;
                     font-size: 10px;
                 }
             }
@@ -846,7 +849,7 @@
 
             .heltonRibeiro {
                 h1 {
-                    font-size: 1rem;
+                    font-size: 12PX;
                 }
 
             }
@@ -861,7 +864,6 @@
                 justify-content: center;
 
                 p {
-                    width: 40%;
                     font-size: 10px;
                 }
             }
@@ -911,10 +913,7 @@
                     }
                 }
             }
-
         }
-
-
     }
 
     .sec6 {
@@ -957,9 +956,28 @@
                 justify-content: center;
 
                 p {
-                    text-align: center;
-                    width: 85%;
                     font-size: 10px;
+                }
+            }
+        }
+    }
+
+    .sec4 {
+        .divGradient4 {
+            .content {
+                display: flex;
+                flex-direction: column;
+
+                .esquerda {
+                    .botoes {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        a {
+                            font-size: 8    px;
+                        }
+                    }
                 }
             }
         }

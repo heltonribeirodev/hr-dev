@@ -1,34 +1,46 @@
 gsap.registerPlugin(ScrollTrigger);
 
-
-//  Variaveis 
+//  !. Instancia Time LIne
 const tl = gsap.timeline(); 
+
+// 2. Preparação dos Textos (SplitType)
+const textoAnimado = document.querySelectorAll(".textoAnimado");
+const splitType = new SplitType(textoAnimado, {type: "chars"});
+
+const textoWords = document.querySelectorAll(".textoAnimadoWords");
+const splitTypeWords = new SplitType(textoWords, {type: "words"})
 
 
 tl.from(".heltonRibeiro", {
     opacity: 0,
     y: -20,
-    duration: 1
+    duration: 0.4
 })
 
-tl.from(".tech", {
+tl.from(".divLogos", {
     opacity: 0,
-    duration:.8
+    y:-5,
+    duration:0.5
 })
 
-tl.from(".sec1 .seta", {
+.from(splitType.chars, {
+    opacity: 0,
+    filter: "blur(3px)",
+    stagger: 0.1,
+    duration: 0.3
+})
+
+
+.from(splitTypeWords.words, {
+    opacity: 0,
+    filter: "blur(3px)",
+    stagger: 0.3,
+    duration: 0.4
+});
+
+tl.from(".seta", {
     opacity: 0,
     filter:"blur(10px)",
     y: -20,
     duration:.8
-})
-
-const textoAnimado = document.querySelectorAll(".textoAnimado");
-
-const splitType = new SplitType(textoAnimado, {type: "chars"})
-
-gsap.from(splitType.chars, {
-    opacity: 0,
-    filter:"blur(3px)",
-    stagger: 0.1,
 })
