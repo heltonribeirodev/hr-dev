@@ -11,7 +11,7 @@ const textoWords = document.querySelectorAll(".textoAnimadoWords");
 const splitTypeWords = new SplitType(textoWords, {type: "words"})
 
 
-tl.from(".heltonRibeiro", {
+tl.from(".etiqueta", {
     opacity: 0,
     y: -20,
     duration: 0.4

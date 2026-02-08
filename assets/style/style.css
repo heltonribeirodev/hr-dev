@@ -83,22 +83,21 @@ section {
 }
 
 .sec1 {
-    .heltonRibeiro {
+    .etiqueta {
         text-align: center;
         display: flex;
         gap: 15px;
         padding: 14px 20px 14px 24px;
-        border-radius: 55px;
-        background: linear-gradient(150deg, #0B0B3D 7%, rgba(2, 3, 21, 1) 68%);
-        border-bottom: 2px solid rgba(136, 136, 151, 0.493);
         margin-bottom: 80px;
 
         h1 {
+            opacity: .5;
             font-size: 1rem;
             font-weight: 600;
         }
 
         i {
+            opacity: .5;
             font-size: 1.2rem;
 
         }
@@ -438,7 +437,7 @@ section {
             }
 
             h4 {
-                font-size: 12px;
+                font-size: 1rem;
                 text-align: center;
                 font-weight: 500;
                 padding: 10px;
