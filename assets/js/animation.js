@@ -27,7 +27,7 @@ tl.from(".divLogos", {
     opacity: 0,
     filter: "blur(3px)",
     stagger: 0.1,
-    duration: 0.3
+    duration: 0.2
 })
 
 
@@ -35,12 +35,12 @@ tl.from(".divLogos", {
     opacity: 0,
     filter: "blur(3px)",
     stagger: 0.3,
-    duration: 0.4
+    duration: 0.3
 });
 
 tl.from(".seta", {
     opacity: 0,
     filter:"blur(10px)",
     y: -20,
-    duration:.8
+    duration:.5
 })
