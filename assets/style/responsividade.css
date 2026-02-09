@@ -788,6 +788,7 @@
                 h1 {
                     font-size: 12PX;
                 }
+
                 i {
                     font-size: 15px;
                 }
@@ -912,6 +913,38 @@
                         a {
                             font-size: 8 px;
                         }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:380px) {
+    .sec3 {
+        .divGradient3 {
+            .trabalhos {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+
+                padding: 20px 5px;
+
+                img {
+                    align-items: center;
+                    width: 80%;
+                }
+            }
+        }
+    }
+
+    .sec4 {
+        .divGradient4 {
+            .content {
+                .esquerda {
+                    .botoes {
+                        margin: 10px;
+                        flex-direction: column;
                     }
                 }
             }
