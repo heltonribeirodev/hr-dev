@@ -274,6 +274,12 @@
                     }
                 }
             }
+
+            .text {
+                h2 {
+                    font-size: 1.8rem;
+                }
+            }
         }
     }
 
@@ -483,6 +489,12 @@
     .sec3 {
         .divGradient3 {
             padding: 0 2rem;
+
+            .text {
+                h2 {
+                    font-size: 1.3rem;
+                }
+            }
         }
     }
 
@@ -596,6 +608,12 @@
                     }
                 }
             }
+
+            .text {
+                h2 {
+                    font-size: 1.1rem;
+                }
+            }
         }
     }
 
@@ -699,6 +717,18 @@
                 p {
                     font-size: 0.8rem;
 
+                }
+            }
+        }
+    }
+
+    .sec3 {
+        .divGradient3 {
+            .text {
+                width: 100%;
+
+                h2 {
+                    font-size: 14px;
                 }
             }
         }
@@ -856,6 +886,16 @@
         }
     }
 
+    .sec3 {
+        .divGradient3 {
+            .text {
+                h2 {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+
     .sec4 {
         .divGradient4 {
             .content {
@@ -869,7 +909,7 @@
                         justify-content: center;
 
                         a {
-                            font-size: 8    px;
+                            font-size: 8 px;
                         }
                     }
                 }

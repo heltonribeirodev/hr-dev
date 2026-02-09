@@ -1,6 +1,6 @@
 // BACK TO TOP
 const backToTopElement = document.getElementById("back-to-top-button");
-const elementToObserve = document.querySelector(".heltonRibeiro h1");
+const elementToObserve = document.querySelector(".etiqueta h1");
 
 const handleBackToTop = () => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });

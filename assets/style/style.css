@@ -218,7 +218,7 @@ section {
 
     .direita {
         display: grid;
-        grid-template-columns: repeat(2, minmax(280px, 600px));
+        grid-template-columns: repeat(2, minmax(280px, 570px));
         justify-items: end;
         gap: 50px;
         margin: 50px 0px 30px auto;
