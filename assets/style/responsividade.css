@@ -472,11 +472,10 @@
                 align-items: center;
                 justify-content: center;
                 flex-direction: column;
-                text-align: center;
 
                 p {
                     text-align: center;
-                    width: 85%;
+                    width: 100%;
                     font-size: 12px;
                 }
             }
@@ -789,7 +788,9 @@
                 h1 {
                     font-size: 12PX;
                 }
-
+                i {
+                    font-size: 15px;
+                }
             }
 
             h2 {
