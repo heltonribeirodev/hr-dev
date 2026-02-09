@@ -247,13 +247,17 @@ section {
         }
     }
 
-    .direita:hover .card {
-        opacity: 0.5;
-    }
+    @media screen and (min-width: 751px) {
+        .direita:hover .card {
+            opacity: 0.5;
+        }
 
-    .direita:hover .card:hover {
-        opacity: 1;
-        transform: scale(1.07);
+        .direita:hover .card:hover {
+            opacity: 1;
+            transform: scale(1.07);
+            transition: transform 0.3s ease, opacity 0.3s ease;
+            /* Adicionei transição para ficar suave */
+        }
     }
 
 }
@@ -339,9 +343,12 @@ section {
             }
         }
 
-        .trabalhos:hover {
-            transform: scale(1.05);
+        @media screen and (min-width: 751px) {
+            .trabalhos:hover {
+                transform: scale(1.05);
+            }
         }
+
     }
 
     .text {
