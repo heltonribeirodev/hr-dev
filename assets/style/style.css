@@ -114,13 +114,11 @@ section {
 
         img {
             width: 30px;
-            filter: grayscale(100%);
             transition: .4s;
         }
 
 
         img:hover {
-            filter: grayscale(0%);
             transform: scale(1.1);
         }
     }
@@ -162,13 +160,11 @@ section {
 }
 
 .sec2 {
-    display: flex;
-
     .divGradient {
         background: linear-gradient(183deg, rgba(43, 43, 196, 1) 7%, rgba(2, 3, 21, 1) 75%);
         flex-direction: row;
+         display: flex;
         padding: 90px 4rem;
-
     }
 
     .esquerda {
@@ -233,7 +229,6 @@ section {
             padding: 30px;
             border-radius: 24px;
             transition: opacity 0.4s ease, transform 0.6s ease;
-
 
             h3 {
                 margin: 24px 0px 8px;
