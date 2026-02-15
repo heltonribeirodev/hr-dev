@@ -336,29 +336,46 @@ section {
                 padding: 15px;
 
                 a {
-                    padding: 10px 20px;
+                    padding: 12px 25px;
                     background-color: rgba(8, 8, 8, 0.205);
                     color: var(--text);
-                    border: none;
                     border-radius: 16px;
                     font-size: 1rem;
                     font-weight: 600;
 
-                    appearance: none;
-                    outline: none;
-                    transition: all 0.5s;
-
                     display: inline-flex;
                     align-items: center;
-                    gap: 10px;
+                    justify-content: center;
                     text-decoration: none;
-                }
-            }
-        }
+                    overflow: hidden;
+                    position: relative;
 
-        @media screen and (min-width: 751px) {
-            .trabalhos:hover {
-                transform: scale(1.02);
+                    transition: opacity .2s ense;
+
+                    span {
+                        transition: transform .5s ease;
+                        display: inline-flex;
+                        align-items: center;
+                        gap: 12px;
+                        /* controla o espaço */
+                    }
+
+                    i {
+                        transition: transform .7s ease;
+                    }
+
+                    &:hover {
+                        opacity: .8;
+
+                        i {
+                            transform: translate(40px, -40px);
+                        }
+
+                        span {
+                            transform: translateX(14px);
+                        }
+                    }
+                }
             }
         }
 
@@ -586,4 +603,3 @@ section {
 .back-to-top-visible {
     display: flex;
 }
-
