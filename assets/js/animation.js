@@ -23,18 +23,19 @@ tl.from(".divLogos", {
     duration:0.5
 })
 
-.from(splitType.chars, {
+tl.from(splitType.chars, {
     opacity: 0,
-    filter: "blur(3px)",
-    stagger: 0.1,
-    duration: 0.01
+    filter: "blur(5px)",
+    x:-20,
+    stagger:0.1,
+    duration: 0.2
 })
 
 
-.from(splitTypeWords.words, {
+tl.from(splitTypeWords.words, {
     opacity: 0,
     filter: "blur(3px)",
-    stagger: 0.3,
+    stagger: 0.1,
     duration: 0.2
 });
 
