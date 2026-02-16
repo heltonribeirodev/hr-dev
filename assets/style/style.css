@@ -22,6 +22,7 @@ a {
 body {
     background-color: #020315;
     color: var(--text);
+    overflow-x: hidden;
 }
 
 /* Barra de rolagem */
@@ -614,15 +615,15 @@ section {
 .hiddenLeft {
     opacity: 0;
     filter: blur(10px);
-    transform: translateX(-100%);
-    transition: all 2s;
+    transform: translateX(-80px);
+    transition: all 0.3s ease;
 }
 
 .hiddenRight {
     opacity: 0;
     filter: blur(10px);
-    transform: translateX(100%);
-    transition: all 2s;
+    transform: translateX(80px);
+    transition: all 0.3s ease;
 }
 
 .showLeft {
