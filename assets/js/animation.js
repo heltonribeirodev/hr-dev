@@ -1,9 +1,7 @@
 gsap.registerPlugin(ScrollTrigger);
 
-//  !. Instancia Time LIne
 const tl = gsap.timeline(); 
 
-// 2. Preparação dos Textos (SplitType)
 const textoAnimado = document.querySelectorAll(".textoAnimado");
 const splitType = new SplitType(textoAnimado, {type: "chars"});
 
@@ -45,3 +43,27 @@ tl.from(".seta", {
     y: -20,
     duration:.5
 })
+
+// Animations Cards
+const observerLeft = document.querySelectorAll('.hiddenLeft');
+const observerRight = document.querySelectorAll('.hiddenRight');
+
+// 1. PRIMEIRO: Defina o observador
+const myObserverLeft = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if(entry.isIntersecting){
+            entry.target.classList.add('showLeft');
+        }
+    });
+});
+
+const myObserverRight = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if(entry.isIntersecting){
+            entry.target.classList.add('showRight');
+        }
+    });
+});
+
+observerLeft.forEach((el) => myObserverLeft.observe(el));
+observerRight.forEach((el) => myObserverRight.observe(el));

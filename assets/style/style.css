@@ -235,22 +235,20 @@ section {
                 margin-top: 15px;
                 line-height: 1.6;
             }
+
+            &:nth-child(2) {
+                transition-delay: 100ms;
+            }
+
+            &:nth-child(3) {
+                transition-delay: 300ms;
+            }
+
+            &:nth-child(4) {
+                transition-delay: 500ms;
+            }
         }
     }
-
-    @media screen and (min-width: 751px) {
-        .direita:hover .card {
-            opacity: 0.8;
-        }
-
-        .direita:hover .card:hover {
-            opacity: 1;
-            transform: scale(1.07);
-            transition: transform 0.3s ease, opacity 0.3s ease;
-            /* Adicionei transição para ficar suave */
-        }
-    }
-
 }
 
 .sec3 {
@@ -376,6 +374,14 @@ section {
                         }
                     }
                 }
+            }
+
+            &:nth-child(2) {
+                transition-delay: 200ms;
+            }
+
+            &:nth-child(3) {
+                transition-delay: 400ms;
             }
         }
 
@@ -602,4 +608,33 @@ section {
 
 .back-to-top-visible {
     display: flex;
+}
+
+/* Animações */
+.hiddenLeft {
+    opacity: 0;
+    filter: blur(10px);
+    transform: translateX(-100%);
+    transition: all 2s;
+}
+
+.hiddenRight {
+    opacity: 0;
+    filter: blur(10px);
+    transform: translateX(100%);
+    transition: all 2s;
+}
+
+.showLeft {
+    opacity: 1;
+    filter: blur(0px);
+    transition: all 2s;
+    transform: translateX(0);
+}
+
+.showRight {
+    opacity: 1;
+    filter: blur(0px);
+    transition: all 2s;
+    transform: translateX(0);
 }
