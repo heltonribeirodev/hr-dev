@@ -23,16 +23,17 @@ tl.from(".divLogos", {
 tl.from(splitType.chars, {
     opacity: 0,
     filter: "blur(5px)",
-    x: -20,
+    x: -30,
     stagger: 0.1,
-    duration: 0.2
+    duration: 0.1
 });
 
 tl.from(splitTypeWords.words, {
     opacity: 0,
+    x:-10,
     filter: "blur(3px)",
     stagger: 0.1,
-    duration: 0.2
+    duration: 0.1
 });
 
 tl.from(".seta", {
