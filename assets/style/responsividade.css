@@ -117,7 +117,7 @@
 
             .content {
                 .esquerda {
-                    h4 {
+                    p {
                         font-size: 15px;
                     }
                 }
@@ -302,7 +302,7 @@
 
             .content {
                 .esquerda {
-                    h4 {
+                    p {
                         font-size: 13px;
                     }
                 }
@@ -382,7 +382,7 @@
 
                 .content {
                     .esquerda {
-                        h4 {
+                        p {
                             font-size: 12px;
                         }
                     }
@@ -429,7 +429,7 @@
                 .esquerda {
                     width: 60%;
 
-                    h4 {
+                    p {
                         padding: 10px;
                         font-size: 13px;
                     }
@@ -641,7 +641,7 @@
                 .esquerda {
                     width: 60%;
 
-                    h4 {
+                    p {
                         padding: 10px;
                         font-size: 8px;
                     }
@@ -666,13 +666,13 @@
             header {
                 padding: 2rem 1rem;
 
-                h1 {
-                    font-size: 1.2rem;
+                img {
+                    width:150px;
                 }
 
                 .redes {
                     img {
-                        width: 25px;
+                        width: 30px;
                     }
                 }
             }
@@ -769,8 +769,8 @@
             header {
                 padding: 2rem 1rem;
 
-                h1 {
-                    font-size: 1.2rem;
+                img {
+                    width: 130px;
                 }
 
                 .redes {
@@ -859,6 +859,26 @@
 
         i {
             font-size: 20px;
+        }
+    }
+}
+
+@media screen and (max-width:410px){
+    .sec3 {
+        .divGradient3 {
+            .cardTrabalho {
+                .trabalhos {
+                    p {
+                        font-size: 12px;
+                    }
+
+                    .linguagensUsadas {
+                        img {
+                            width: 25px;
+                        }
+                    }
+                }
+            }
         }
     }
 }
