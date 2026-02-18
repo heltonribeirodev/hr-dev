@@ -60,3 +60,6 @@ const cardObserver = new IntersectionObserver((entries) => {
 document
     .querySelectorAll('.hiddenLeft, .hiddenRight')
     .forEach(el => cardObserver.observe(el));
+
+
+// FOOTER 
