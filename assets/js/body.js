@@ -29,6 +29,24 @@ if (elementToObserve) {
     observer.observe(elementToObserve);
 }
 
+// LINK FOOTER SEM MUDAR URL
+document.querySelectorAll(".footer-links a").forEach(link => {
+    link.addEventListener("click", function (e) {
+        e.preventDefault(); // impede mudar a URL
+
+        const targetId = this.getAttribute("href").substring(1);
+        const targetSection = document.getElementById(targetId);
+
+        if (targetSection) {
+            targetSection.scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
+        }
+    });
+});
+
+
 // E-MAIL JS
 emailjs.init("oLb_EUknWblqCTl_w");
 
@@ -53,7 +71,7 @@ document.getElementById("contact-form").addEventListener("submit", function (eve
         .then(() => {
             Toastify({
                 text: "E-mail enviado com sucesso!",
-                style:{
+                style: {
                     background: "#28a745",
                     color: "#F4F4F4"
                 },
@@ -77,6 +95,4 @@ document.getElementById("contact-form").addEventListener("submit", function (eve
             submitButton.textContent = "Enviar Mensagem";
             submitButton.disabled = false;
         })
-
-
 })
