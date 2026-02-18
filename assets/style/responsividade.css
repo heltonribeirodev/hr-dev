@@ -20,6 +20,22 @@
             }
         }
     }
+
+    footer {
+        .divGradient6 {
+            .footer-container {
+                .footer-links-wrapper {
+                    gap: 150px;
+                }
+
+                .footer-links {
+                    h3 {
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media screen and (max-width:1300px) {
@@ -124,6 +140,12 @@
             }
         }
     }
+
+    footer {
+        .divGradient6 {
+            padding: 0px;
+        }
+    }
 }
 
 @media screen and (max-width:1200px) {
@@ -175,6 +197,16 @@
     .sec5 {
         .divGradient5 {
             padding: 90px 0px;
+        }
+    }
+
+    footer {
+        .divGradient6 {
+            .footer-container {
+                .footer-links-wrapper {
+                    gap: 100px;
+                }
+            }
         }
     }
 }
@@ -315,6 +347,8 @@
             }
         }
     }
+
+
 }
 
 @media screen and (max-width:1000px) {
@@ -371,20 +405,65 @@
 
             }
         }
+    }
 
-        .sec5 {
-            .divGradient5 {
-                .titleSec {
-                    h3 {
-                        font-size: 5rem;
+    .sec5 {
+        .divGradient5 {
+            .titleSec {
+                h3 {
+                    font-size: 5rem;
+                }
+            }
+
+            .content {
+                .esquerda {
+                    p {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        .divGradient6 {
+            .footer-container {
+                .footer-logo {
+                    width: 40%;
+
+                    img {
+                        width: 100px;
+                    }
+
+                    p {
+                        font-size: 16px;
+                    }
+
+                    .redes {
+                        a img {
+                            width: 30px;
+                        }
+                    }
+
+                    address {
+
+                        a,
+                        p {
+                            font-size: 14px;
+                        }
                     }
                 }
 
-                .content {
-                    .esquerda {
-                        p {
-                            font-size: 12px;
-                        }
+                .footer-links-wrapper {
+                    gap: 80px;
+                }
+
+                .footer-links {
+                    width: 20%;
+
+                    a,
+                    li {
+                        font-size: 12px;
                     }
                 }
             }
@@ -478,10 +557,7 @@
                     font-size: 12px;
                 }
             }
-
-
         }
-
     }
 
     .sec3 {
@@ -507,6 +583,17 @@
         }
     }
 
+    footer {
+        .divGradient6 {
+            .footer-container {
+                padding: 60px 2rem;
+
+                .footer-logo {
+                    p {}
+                }
+            }
+        }
+    }
 }
 
 @media screen and (max-width:650px) {
@@ -658,6 +745,40 @@
             }
         }
     }
+
+    footer {
+        .divGradient6 {
+            .footer-container {
+                flex-direction: column;
+                gap: 50px;
+
+                .footer-logo {
+                    align-items: center;
+                    width: 100%;
+
+                    p {
+                        text-align: center;
+                    }
+                }
+
+                .footer-links-wrapper {
+                    display: flex;
+                    justify-content: center;
+                    /* centraliza horizontalmente */
+                    gap: 60px;
+                    width: 100%;
+                }
+            }
+        }
+
+        .footer-bottom {
+            p {
+                padding: 0;
+                text-align: center;
+                font-size: 12px;
+            }
+        }
+    }
 }
 
 @media screen and (max-width:500px) {
@@ -667,7 +788,7 @@
                 padding: 2rem 1rem;
 
                 img {
-                    width:150px;
+                    width: 150px;
                 }
 
                 .redes {
@@ -754,11 +875,11 @@
     }
 
     .back-to-top {
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
 
         i {
-            font-size: 20px;
+            font-size: 30px;
         }
     }
 }
@@ -853,17 +974,18 @@
     }
 
     .back-to-top {
-        width: 30px;
-        height: 30px;
-        bottom: 60px;
+        width: 40px;
+        height: 40px;
+        bottom: 40px;
+        right: 30px;
 
         i {
-            font-size: 20px;
+            font-size: 30px;
         }
     }
 }
 
-@media screen and (max-width:410px){
+@media screen and (max-width:410px) {
     .sec3 {
         .divGradient3 {
             .cardTrabalho {
