@@ -638,10 +638,16 @@ footer {
 
                 a,
                 p {
+                    opacity: 0.8;
                     color: var(--text);
                     border-radius: 15px;
                     font-size: 14px;
                     text-decoration: none;
+                    transition: all .5s;
+
+                    &:hover {
+                        opacity: 1;
+                    }
                 }
             }
         }
