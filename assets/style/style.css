@@ -644,11 +644,10 @@ footer {
                     font-size: 14px;
                     text-decoration: none;
                     transition: all .5s;
-
-                    &:hover {
+                }
+                a:hover {
                         opacity: 1;
                     }
-                }
             }
         }
 
@@ -678,7 +677,6 @@ footer {
 
                 a,
                 li {
-                    cursor: pointer;
                     color: #f1f1f19d;
                     font-size: 1rem;
                     transition: .5s;
