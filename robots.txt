@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Bloquear arquivos desnecessários para rastreamento
+Disallow: /assets/js/
+Disallow: /assets/style/
+
+Sitemap: https://hrdev.com.br/sitemap.xml
